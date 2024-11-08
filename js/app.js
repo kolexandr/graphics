@@ -127,9 +127,9 @@ function createDirectionalLight(){
 	scene.add( dirLight );
 
 	// adds helping lines
-	const dirLightHelper = new THREE.DirectionalLightHelper( dirLight, 3, 0xcc0000 );
-	scene.add( dirLightHelper );
-	scene.add(new THREE.CameraHelper(dirLight.shadow.camera));
+	// const dirLightHelper = new THREE.DirectionalLightHelper( dirLight, 3, 0xcc0000 );
+	// scene.add( dirLightHelper );
+	// scene.add(new THREE.CameraHelper(dirLight.shadow.camera));
 }
 
 function createSpotLight(){
